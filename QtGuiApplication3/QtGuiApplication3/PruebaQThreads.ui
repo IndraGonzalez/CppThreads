@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PruebaQThreadsClass</class>
+ <widget class="QMainWindow" name="PruebaQThreadsClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>779</width>
+    <height>493</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PruebaQThreads</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPlainTextEdit" name="windowText"/>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="threadText"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="windowButton">
+      <property name="text">
+       <string>Mostrar Mensaje</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="threadButton">
+      <property name="text">
+       <string>Lanzar hilo</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="stopThreadButton">
+      <property name="text">
+       <string>Abortar hilo</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>779</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="PruebaQThreads.qrc"/>
+ </resources>
+ <connections/>
+</ui>
